@@ -21,6 +21,3 @@ def speak_to_grandma(speach)
     "NO, NOT SINCE 1938!"
   end
 end
-
-speach = gets
-puts speak_to_grandma(speach)
