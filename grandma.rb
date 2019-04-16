@@ -11,7 +11,8 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
-
+gets speach
+puts speak_to_grandma(speach)
 def speak_to_grandma(speach)
   if speach != speach.upcase
     "HUH?! SPEAK UP, SONNY!"
