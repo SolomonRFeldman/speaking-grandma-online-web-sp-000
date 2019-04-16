@@ -22,5 +22,5 @@ def speak_to_grandma(speach)
   end
 end
 
-speach = gets speach
+speach = gets
 puts speak_to_grandma(speach)
